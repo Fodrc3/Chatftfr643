@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Button Example</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<button id="chatgpt-button">Interaksi dengan ChatGPT</button>
+
+<script>
+    document.getElementById('chatgpt-button').addEventListener('click', function() {
+        alert('Anda mengklik tombol untuk berinteraksi dengan ChatGPT!');
+        // Di sini Anda bisa menambahkan kode untuk berinteraksi dengan ChatGPT API
+    });
+</script>
+
+</body>
+</html>
